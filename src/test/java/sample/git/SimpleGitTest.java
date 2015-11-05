@@ -20,7 +20,7 @@ public class SimpleGitTest {
 		SoftAssert sa = new SoftAssert();
 		String title = driver.getTitle();
 		System.out.println("title is "+title);
-		sa.assertTrue(title.contains("Flipkart"), " Title doesnot contains Flipkart");
+		sa.assertTrue(title.contains("flipkart"), " Title doesnot contains Flipkart");
 		driver.close();
 		driver.quit();
 		sa.assertAll();
